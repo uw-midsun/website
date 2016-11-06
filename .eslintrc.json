@@ -1,0 +1,20 @@
+{
+    "extends": ["standard", "eslint:recommended", "plugin:react/recommended"],
+    "plugins": [
+        "react"
+    ],
+    "rules": {
+        "react/jsx-uses-react": "error",
+        "react/jsx-uses-vars": "error",
+        "react/forbid-component-props": "error",
+        "max-len": ["error", 120],
+        "no-console": ["error", { "allow": ["info","warn", "error"] }]
+    },
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    }
+}
