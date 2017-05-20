@@ -1,0 +1,96 @@
+@media(max-width:768px) {
+  .header .nav .section span {
+    font-weight: 500 !important;
+    font-size: 15px !important;
+  }
+
+  .header .nav .section {
+    height: 60px !important;
+  }
+}
+
+.header {
+  position: fixed;
+  z-index: 104;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+}
+
+.header .icon {
+  z-index: 1000;
+  text-align: center;
+  height: 0px;
+}
+
+.header .icon img {
+  height: 60px;
+  margin: 5px;
+  max-width: 90vw;
+}
+
+.header .nav {
+  position: fixed;
+  top: 0;
+  z-index: 20;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  z-index: -200;
+  margin-left: -110vw;
+}
+
+/* Style the links inside the list items */
+.header .nav .section {
+  display: inline-block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  height: 60px;
+  overflow: hidden;
+  background-color: #2f3342;
+  width: 100%;
+}
+
+.header .nav .team, .cars, .sponsors, .media, .home {
+	padding: 0px;
+}
+
+.header .nav .section span {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.header .nav .section:hover {
+  background-color: #967b61;
+}
+
+.header .nav .img {
+	top: -5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: -400px;
+  object-fit: cover;
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.header .nav .team .img {
+  background-image: url(../img/team-cover.jpg);
+}
+
+.header .nav .cars .img {
+  background-image: url(../img/cars-cover.jpg);
+}
+
+.header .nav .sponsors .img {
+  background-image: url(../img/sponsors-cover.jpg);
+}
+
+.header .nav .media .img {
+  background-image: url(../img/media-cover.jpg);
+}

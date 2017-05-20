@@ -1,0 +1,30 @@
+#main {
+    margin-top: 60px;
+    overflow-x: hidden;
+    text-align: center;
+}
+
+#instagram {
+	margin-bottom: 45px;
+}
+
+#instagram img {
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+}
+
+#nanoGallery1 {
+	margin-bottom: 45px;
+}
+
+.niceGallery ul.entries-columns {
+	padding-left: 0px;
+}
+
+#player {
+	margin-top: 30px;
+	width: 80vw;
+	height: 80vh;
+	margin-bottom: 30px;
+}

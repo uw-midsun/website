@@ -1,0 +1,196 @@
+body{
+    color: white;
+}
+
+#myCarousel {
+    margin-top: 80px;
+    height: 600px;
+    overflow: hidden;
+    .carousel-inner{
+        img{
+            width: 100%;
+        }
+    }
+}
+
+#main {
+    background: linear-gradient(135deg , #8d4b07, #294789) fixed;
+    background-size: 100% 100%;
+}
+
+.content{
+    margin-top: 30px;
+    &.savage{
+        img{
+            width: 200px;
+            border-radius: 100%;
+            margin: 20px;
+        }
+        p{
+            margin-top: 10%;
+        }
+    }
+}
+
+.team-content {
+    .body{
+        transition: all 0.3s;
+        height: 300px;
+        .electrical, .mechanical, .business{
+            transition: all 0.3s;
+            .back-button {
+                display: none;
+                float: left;
+                background: transparent;
+                border: none;
+                font-size: 15px;
+                text-decoration: underline;
+                outline: none;
+            }
+            img{
+                width: 300px;
+                border: 2px solid transparent;  
+                cursor: pointer;
+                transition: all 0.3s;
+                filter: grayscale(1);
+                &:hover{
+                    filter: grayscale(0);
+                    border: 2px solid rgba(255, 255, 255, 0.2);
+                }
+                &.selected{
+                    filter: grayscale(0);
+                    border: 2px solid rgba(255, 255, 255, 0.6);
+                }
+            }
+            p{
+                display: none;
+            }
+
+            &.fade-out{
+                h2, img, p{
+                    transition: all 0.3s;
+                }
+
+                h2{
+                    opacity: 0;
+                    transform: translateY(-30px);
+                }
+                img{
+                    transform: translateX(30px);
+                    opacity: 0;
+                }
+                p{
+                    opacity: 0;
+                    transform: translateX(-30px);
+                }
+            }
+            &.hide-away{
+                display: none;
+            }
+            &.activated{
+                transition: all 0.3s;
+                transition: width 0s;
+                opacity: 1;
+                width: 100%;
+                .back-button{
+                    display: inline-block;
+
+                }
+                h2{
+                    transform: translate(0px, 0px);
+                    display: block;
+                    opacity: 1;
+                }
+                img {
+                    transform: translate(0px, 0px);
+                    clear: left;
+                    float: left;
+                    transition: width 0s, opacity 0.2s 0.3s;
+                    opacity: 1;
+                    transform: translate(0px, 0px);
+                    width: 60%;
+                    margin-top: 30px; 
+                    border-radius: 0;
+                    filter: none;
+                    cursor: initial;
+                    border: none;
+                }
+                p{
+                    display: block;
+                    opacity: 1;
+                    transform: translate(0, 0);
+                    float: left;
+                    margin-left: 20px;
+                    margin-top: 50px;
+                    width: 33%;
+                }
+            }
+            &.activated-out{
+                transition: all 0.3s;
+                opacity: 0;
+            }
+        }
+        .electrical, .mechanical{
+            opacity: 1;
+        }
+    }
+
+    .header-team{
+        h2, p{
+            padding: 0;
+            margin-bottom: 20px;
+        }
+    }
+
+    h2{
+        padding: 20px;
+        display: inline-block;
+        border-bottom: none;
+        margin-bottom: 0;
+        transition: all 0.3s;
+    }
+    padding-bottom: 100px;
+}
+
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .team-member {
+        margin: 10px;
+        width: 225px;
+        overflow: hidden;
+        position: relative;
+        img{
+            width: 100%; 
+        }
+        .member-description{
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            h4 {
+                margin: 0;
+            }
+            background: rgba(141, 75, 7, 0.2);
+            .name, .program, .title{
+                text-align: center;
+            }
+            .program, .title{
+                transition: all 0.3s;
+                height: 0px;
+            }
+        }
+        &:hover {
+            .member-description{
+                 background: rgba(141, 75, 7, 0.6);
+                .program, .title{
+                    white-space: nowrap;
+                    height: 20px;
+                    font-size: 12px;
+                }
+            }
+        }
+    }
+}
+
