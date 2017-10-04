@@ -20,7 +20,7 @@ $(function(){
 	    	
 	    var averagePosition = currentPageOffset * page.height() * 0.077;
 		segnaposto.css('margin-top', averagePosition);
-		$('.bg_sun').css('margin-top', averagePosition - page.height() / 8);
+		// $('.bg_sun').css('margin-top', averagePosition - page.height() / 8);
 		var theta = $(window).scrollTop() / 100 % Math.PI;
 		$('.segna').css({ transform: 'rotate(-' + theta + 'rad)' });
 

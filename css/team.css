@@ -174,10 +174,10 @@ p {
 
 @media (max-width: 992px) {
   #myCarousel {
-  height: 50vh;}
+  height: 80vh;}
   #myCarousel .carousel-inner .img-1, .img-2, .img-3, .img-4 {
     background-position: center -20vh;
-    height: 50vh;
+    height: 80vh;
   }
   .team-members {
     width: 100vw;

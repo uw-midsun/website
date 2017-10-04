@@ -1,154 +1,120 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>Midnight Sun</title>
-		<link rel="icon" href="img/logo_round.png"/>
-		<meta name="description" content="University of Waterloo Midnight Sun Rayce Car Team">
-		<meta name="keywords" content="midnight sun, solar car, car, university of waterloo, rayce, solar">
-		<meta name="author" content="Uwmidsun">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Exo+2:200,300,600,700,900" rel="stylesheet">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<title>Midnight Sun</title>
+	<link rel="icon" href="img/logo_round.png" />
+	<meta name="description" content="University of Waterloo Midnight Sun Rayce Car Team">
+	<meta name="keywords" content="midnight sun, solar car, car, university of waterloo, rayce, solar">
+	<meta name="author" content="Uwmidsun">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:700" rel="stylesheet">
 
-		<link rel="stylesheet" href="css/style.css"/>
-		<link rel="stylesheet" href="css/header.css"/>
-		<link rel="stylesheet" href="css/footer.css"/>
-		<link rel="stylesheet" href="css/sponsors.css"/>
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.jquery.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/css/swiper.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo+2:200,300,600,700,900">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/header.css" />
+	<link rel="stylesheet" href="css/footer.css" />
+	<link rel="stylesheet" href="css/sponsors.css" />
 
-	</head>
-	<body>
-		<div id="loader-wrapper">
-			<div id="loader"></div>
+</head>
 
-			<div class="loader-section section-left"></div>
-			<div class="loader-section section-right"></div>
+<body>
+	<div id="loader-wrapper">
+		<div id="loader"></div>
+		<div class="loader-section section-left"></div>
+		<div class="loader-section section-right"></div>
+	</div>
 
-		</div>
-		<div class="header">
-			<div class="icon">
-				<a id="logo" href="index.html">
-					<img src="img/logo_long.png"/>
-				</a>
+
+	<div id="main">
+		<div id="sponsor-us-parallax" style="text-align:center">
+			<div class="col-sm-12 text-center inner sponsor-us-title">
+				<div>
+					<h1 style="font-size:50px">SPONSORSHIP</h1>
+					<p></p>
+				</div>
 			</div>
-			<nav class="nav row">
-				<a href="team.html">
-					<div class="team col-xs-3">
-						<div class="section">
-							<span>Team</span>
-						</div>
-						<div class="img"></div>
-					</div>
-				</a>
-				<a href="cars.html">
-					<div class="cars col-xs-3">
-						<div class="section">
-							<span>Cars</span>
-						</div>
-						<div class="img"></div>
-					</div>
-				</a>
-				<a href="sponsors.html">
-					<div class="sponsors col-xs-3">
-						<div class="section">
-							<span>Sponsors</span>
-						</div>
-						<div class="img"></div>
-					</div>
-				</a>
-				<a href="media.html">
-					<div class="media col-xs-3">
-						<div class="section">
-							<span>Media</span>
-						</div>
-						<div class="img"></div>
-					</div>
-				</a>
-			</nav>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-md-12 button-div" style="padding-top:5px; margin-bottom: 30px">
+				<div class="donate-button">
+					<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="center-div">
+						<!-- Identify your business so that you can collect the payments. -->
+						<input type="hidden" name="business" value="mail@uwmidsun.com">
+
+						<!-- Specify a Donate button. -->
+						<input type="hidden" name="cmd" value="_donations">
+
+						<!-- Specify details about the contribution -->
+						<input type="hidden" name="item_name" value="Midnight Sun">
+						<input type="hidden" name="item_number" value="Midnight Sun Solar Rayce Car Team">
+						<input type="hidden" name="amount" value="">
+						<input type="hidden" name="currency_code" value="CAD">
+
+						<!-- Display the payment button. -->
+						<input class="center-div" type="image" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif" alt="PayPal - The safer, easier way to pay online">
+						<img alt="" width="1" height="1" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif">
+					</form>
+				</div>
+				<a href="mailto:mail@uwmidsun.com?Subject=Partner%20up" target="_top" class="smoothScroll btn btn-default center-div">GET IN TOUCH</a>
+			</div>
+			<div class="col-xs-12 col-md-6 col-md-offset-3" style="text-align: center;">
+				<p>
+					Midnight Sun relies on the support of university, industrial, and corporate sponsors in order to achieve our goals. We receive
+					support both in the form of monetary sponsorship and the direct supply of raw materials or manufacturing facilities
+					and services.
+				</p>
+				<p>
+					Our sponsors contribute not only to the success of our vehicle, but the success of the students that form our team. Midnight
+					Sun has impacted several generations of students by giving them the opportunity to take on a major project spanning
+					multiple disciplines, experience they have carried on into their respective industries.
+				</p>
+				<p>
+					If you'd like to talk about ways you can support our team, please feel free to contact us at
+					<a href="mailto:mail@uwmidsun.com?Subject=Partner%20up" target="_top">mail@uwmidsun.com</a>
+				</p>
+			</div>
 		</div>
 
-		<div id="main">
-			<div id="sponsor-us-parallax" style="text-align:center">
-				<div class="col-sm-12 text-center inner sponsor-us-title">
-					<div>
-						<h1 style="font-size:50px">SPONSORSHIP</h1>
-						<p></p>
-					</div>
+		<div class="container">
+			<div style="text-align:center">
+				<h3>The more you support Midnight Sun, the more we can give back</h3>
+			</div>
+		</div>
+		<div style="text-align: center">
+			<div class="row">
+				<div class="col-xs-12 col-md-3 col-md-offset-3">
+					<h3>Supporting students</h3>
+					<p>Your support will enable the unique development of hundreds of undergraduate students</p>
+				</div>
+				<div class="col-xs-12 col-md-3">
+					<h3>Media exposure</h3>
+					<p>Our sponsors are featured in our print and web media, as well as at outreach events.</p>
 				</div>
 			</div>
 			<div class="row">
-				<div class="col-xs-12 col-md-12 button-div" style="padding-top:5px; margin-bottom: 30px">
-					<div class="donate-button">
-						<form action="https://www.paypal.com/cgi-bin/webscr" method="post" class="center-div">
-								<!-- Identify your business so that you can collect the payments. -->
-								<input type="hidden" name="business" value="mail@uwmidsun.com">
-
-								<!-- Specify a Donate button. -->
-								<input type="hidden" name="cmd" value="_donations">
-
-								<!-- Specify details about the contribution -->
-								<input type="hidden" name="item_name" value="Midnight Sun">
-								<input type="hidden" name="item_number" value="Midnight Sun Solar Rayce Car Team">
-								<input type="hidden" name="amount" value="">
-								<input type="hidden" name="currency_code" value="CAD">
-
-								<!-- Display the payment button. -->
-								<input class="center-div" type="image" name="submit"
-								src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif"
-								alt="PayPal - The safer, easier way to pay online">
-								<img alt="" width="1" height="1"
-								src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
-						</form>
-					</div>
-					<a href="mailto:mail@uwmidsun.com?Subject=Partner%20up" target="_top" class="smoothScroll btn btn-default center-div">GET IN TOUCH</a>
+				<div class="col-xs-12 col-md-3 col-md-offset-3">
+					<h3>Pushing renewable energy forward</h3>
+					<p>You will be supporting the adoption of renewable technologies and processes.</p>
 				</div>
-				<div class="col-xs-12 col-md-6 col-md-offset-3" style="text-align: center;">
-					<p>
-						Midnight Sun relies on the support of university, industrial, and corporate sponsors in order to achieve our goals. We receive support both in the form of monetary sponsorship and the direct supply of raw materials or manufacturing facilities and services.
-					</p>
-					<p>
-						Our sponsors contribute not only to the success of our vehicle, but the success of the students that form our team. Midnight Sun has impacted several generations of students by giving them the opportunity to take on a major project spanning multiple disciplines, experience they have carried on into their respective industries.
-					</p>
-					<p>
-						If you'd like to talk about ways you can support our team, please feel free to contact us at
-						<a href="mailto:mail@uwmidsun.com?Subject=Partner%20up" target="_top">mail@uwmidsun.com</a>
-					</p>
+				<div class="col-xs-12 col-md-3">
+					<h3>We will be there for you</h3>
+					<p>Midnight Sun is happy to promote our team at sponsor-hosted events</p>
 				</div>
 			</div>
-
-			<div class="container">
-				<div style="text-align:center">
-						<h3>The more you support Midnight Sun, the more we can give back</h3>
-				</div>
-			</div>
-			<div style="text-align: center">
-				<div class="row">
-					<div class="col-xs-12 col-md-3 col-md-offset-3">
-						<h3>Supporting students</h3>
-						<p>Your support will enable the unique development of hundreds of undergraduate students</p>
-					</div>
-					<div class="col-xs-12 col-md-3">
-						<h3>Media exposure</h3>
-						<p>Our sponsors are featured in our print and web media, as well as at outreach events.</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-xs-12 col-md-3 col-md-offset-3">
-						<h3>Pushing renewable energy forward</h3>
-						<p>You will be supporting the adoption of renewable technologies and processes.</p>
-					</div>
-					<div class="col-xs-12 col-md-3">
-						<h3>We will be there for you</h3>
-						<p>Midnight Sun is happy to promote our team at sponsor-hosted events</p>
-					</div>
-				</div>
-			</div>
-<!--       <div id="sponsor-header-parallax-current" style="text-align:center">
+		</div>
+		<!--       <div id="sponsor-header-parallax-current" style="text-align:center">
 				<div class="col-sm-12 text-center inner sponsor-header-title">
 					<div>
 						<h1 style="font-size:50px">CURRENT SPONSORS</h1>
@@ -158,12 +124,12 @@
 			</div>
  -->
 
-			<div class="container-fluid" style="margin-bottom:50px; padding-left:15px; padding-right:15px">
-				<div style="text-align:center">
-					<h1>Thank you to our current sponsors:</h1>
-				</div>
+		<div class="container-fluid" style="margin-bottom:50px; padding-left:15px; padding-right:15px">
+			<div style="text-align:center">
+				<h1>Thank you to our current sponsors:</h1>
+			</div>
 
-				<!-- <div class="sponsor-list">
+			<!-- <div class="sponsor-list">
 					<div class="row text-center">
 					 <hr>
 						<h1>
@@ -172,266 +138,266 @@
 						<p>
 						</p>
 					</div> -->
-					<div class="row text-center">
-						<hr>
-						<h1 class="col-md-12">
-							Patrons
-						</h1>
+			<div class="row text-center">
+				<hr>
+				<h1 class="col-md-12">
+					Patrons
+				</h1>
 
-						<div class="row">
+				<div class="row">
 
-							<div class="col-md-4 col-md-offset-4">
-								<a class="tile" href="https://uwaterloo.ca/systems-design-engineering/" target="_blank">
+					<div class="col-md-4 col-md-offset-4">
+						<a class="tile" href="https://uwaterloo.ca/systems-design-engineering/" target="_blank">
 										<img class="img-rounded" src="img/sponsor/uw_systems_design.png"/>
 								</a>
-							</div>
-
-						</div>
 					</div>
 
-					<div class="row text-center">
-						<hr>
-						<h1 class="col-md-12">
-							Benefactors
-						</h1>
+				</div>
+			</div>
 
-						<div class="row">
+			<div class="row text-center">
+				<hr>
+				<h1 class="col-md-12">
+					Benefactors
+				</h1>
 
-								<div class= "col-md-2 col-md-offset-1">
-									<a class="tile" href="http://baumeier.com/" target="_blank">
+				<div class="row">
+
+					<div class="col-md-2 col-md-offset-1">
+						<a class="tile" href="http://baumeier.com/" target="_blank">
 										<img class="img-rounded" src="img/sponsor/baumeier.png"/>
 									</a>
-								</div>
+					</div>
 
-								<div class= "col-md-2">
-									<a class="tile" href="https://www.wnhydro.com/en/index.asp" target="_blank">
+					<div class="col-md-2">
+						<a class="tile" href="https://www.wnhydro.com/en/index.asp" target="_blank">
 										<img class="img-rounded" src="img/sponsor/waterloo_north_hydro.png"/>
 									</a>
-								</div>
+					</div>
 
-								<div class= "col-md-2">
-									<a class="tile" href="http://mitekautobody.com/" target="_blank">
+					<div class="col-md-2">
+						<a class="tile" href="http://mitekautobody.com/" target="_blank">
 										<img class="img-rounded" src="img/sponsor/mitek.png"/>
 									</a>
-								</div>
+					</div>
 
-								<div class= "col-md-2">
-									<a class="tile" href="https://www.student.math.uwaterloo.ca/~mefcom/" target="_blank">
+					<div class="col-md-2">
+						<a class="tile" href="https://www.student.math.uwaterloo.ca/~mefcom/" target="_blank">
 										<img class="img-rounded" src="img/sponsor/uw_math_endownment_fund.png"/>
 									</a>
-								</div>
+					</div>
 
-								<div class= "col-md-2">
-									<a class="tile" href="http://www.husky.co/EN-US/" target="_blank">
+					<div class="col-md-2">
+						<a class="tile" href="http://www.husky.co/EN-US/" target="_blank">
 										<img class="img-rounded" src="img/sponsor/husky.png"/>
 									</a>
-								</div>
-
-						</div>
 					</div>
 
-					<div class="row text-center">
-						<hr>
-						<h1 class="col-md-12">
-							Associates
-						</h1>
+				</div>
+			</div>
 
-						<div class="row">
+			<div class="row text-center">
+				<hr>
+				<h1 class="col-md-12">
+					Associates
+				</h1>
 
-							<div class="col-md-2 col-md-offset-1"> 
-								<a class="tile" href="https://uwaterloo.ca/electrical-computer-engineering/" target="_blank">
+				<div class="row">
+
+					<div class="col-md-2 col-md-offset-1">
+						<a class="tile" href="https://uwaterloo.ca/electrical-computer-engineering/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/uw_electrical_and_computer.png"/> 
 								</a>
-							</div>
+					</div>
 
-							<div class="col-md-2"> 
-								<a class="tile" href="https://www.facebook.com/SunCatSolar/" target="_blank">
+					<div class="col-md-2">
+						<a class="tile" href="https://www.facebook.com/SunCatSolar/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/suncat_solar.png"/>
 								</a>
-							</div>
+					</div>
 
-							<div class="col-md-2"> 
-								<a class="tile" href="https://uwaterloo.ca/engineering/" target="_blank">
+					<div class="col-md-2">
+						<a class="tile" href="https://uwaterloo.ca/engineering/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/uw_engineering.png"/>
 								</a>
-							</div>
+					</div>
 
-							<div class="col-md-2"> 
-								<a class="tile" href="http://itlcircuits.com/" target="_blank">
+					<div class="col-md-2">
+						<a class="tile" href="http://itlcircuits.com/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/itl_circuits.png"/>
 								</a>
-							</div>
+					</div>
 
-							<div class="col-md-2"> 
-								<a class="tile" href="http://www.altium.com/" target="_blank">
+					<div class="col-md-2">
+						<a class="tile" href="http://www.altium.com/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/altium.jpg"/>
 								</a>
-							</div>
+					</div>
 
-						</div>
-						<div class= "row">
+				</div>
+				<div class="row">
 
-							<div class="col-md-2 col-md-offset-4"> 
-								<a class="tile" href="https://www.3ds.com/" target="_blank">
+					<div class="col-md-2 col-md-offset-4">
+						<a class="tile" href="https://www.3ds.com/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/dassault_systemes.png"/>
 								</a>
-							</div>
+					</div>
 
-							 <div class="col-md-2">
-								<a class="tile" href="http://www.ansys.com/" target="_blank">
+					<div class="col-md-2">
+						<a class="tile" href="http://www.ansys.com/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/Ansys.jpg"/>
 								</a>
-							</div>
-
-						</div>
 					</div>
 
-					<div class="row text-center">
-						<hr>
-						<h1 class="col-md-12">
-							Supporters
-						</h1>
+				</div>
+			</div>
 
-						<div class="row">
+			<div class="row text-center">
+				<hr>
+				<h1 class="col-md-12">
+					Supporters
+				</h1>
 
-							<div class="col-sm-2 col-sm-offset-1">
-								<a class="tile" href="https://uwaterloo.ca/chemical-engineering/employment-opportunities/faculty" target="_blank">
+				<div class="row">
+
+					<div class="col-sm-2 col-sm-offset-1">
+						<a class="tile" href="https://uwaterloo.ca/chemical-engineering/employment-opportunities/faculty" target="_blank">
 									<img class="img-rounded" src="img/sponsor/uw_chemical.png"/>
 								</a>
-							</div>
+					</div>
 
-							<div class="col-sm-2">
-								<a class="tile" href="https://uwaterloo.ca/mechanical-mechatronics-engineering/" target="_blank">
+					<div class="col-sm-2">
+						<a class="tile" href="https://uwaterloo.ca/mechanical-mechatronics-engineering/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/uw_mechanical.png"/>
 								</a>
-							</div>
+					</div>
 
-							<div class="col-sm-2">
-								<a class="tile" href="https://cs.uwaterloo.ca/" target="_blank">
+					<div class="col-sm-2">
+						<a class="tile" href="https://cs.uwaterloo.ca/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/uw_cs.png"/>
 								</a>
-							</div>
+					</div>
 
-							<div class="col-sm-2">
-								<a class="tile" href="https://uwaterloo.ca/civil-environmental-engineering/" target="_blank">
+					<div class="col-sm-2">
+						<a class="tile" href="https://uwaterloo.ca/civil-environmental-engineering/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/uw_civil_and_environmental.png"/>
 								</a>
-							</div>
+					</div>
 
-							<div class="col-sm-2">
-								<a class="tile" href="http://www.patternsthings.com/" target="_blank">
+					<div class="col-sm-2">
+						<a class="tile" href="http://www.patternsthings.com/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/patterns_n_things.png"/>
 								</a>
-							</div>
+					</div>
 
-					 </div>
+				</div>
 
-					 <div class="row" >
+				<div class="row">
 
-						<div class="col-sm-2 col-sm-offset-1">
-								<a class="tile" href="http://www.weef.uwaterloo.ca/index.php" target="_blank">
+					<div class="col-sm-2 col-sm-offset-1">
+						<a class="tile" href="http://www.weef.uwaterloo.ca/index.php" target="_blank">
 									<img class="img-rounded" src="img/sponsor/uw_weef.png"/>
 								</a>
-						</div>
+					</div>
 
-							<div class="col-sm-2">
-								<a class="tile" href="http://www.marsland.ca/" target="_blank">
+					<div class="col-sm-2">
+						<a class="tile" href="http://www.marsland.ca/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/marsland.png"/>
 								</a>
-						</div>
+					</div>
 
-							<div class="col-sm-2">
-								<a class="tile" href="http://miltera.com/" target="_blank">
+					<div class="col-sm-2">
+						<a class="tile" href="http://miltera.com/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/miltera.png"/>
 								</a>
-						</div>
+					</div>
 
-							<div class="col-sm-2">
-								<a class="tile" href="http://www.samuel.com/en/Pages/default.aspx" target="_blank">
+					<div class="col-sm-2">
+						<a class="tile" href="http://www.samuel.com/en/Pages/default.aspx" target="_blank">
 									<img class="img-rounded" src="img/sponsor/samuel_son_and_co.png"/>
 								</a>
-						</div>
+					</div>
 
-							<div class="col-sm-2">
-								<a class="tile" href="https://fef.td.com/" target="_blank">
+					<div class="col-sm-2">
+						<a class="tile" href="https://fef.td.com/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/td_friends.png"/>
 								</a>
-						</div>
-
 					</div>
 
-						<div class="row">
+				</div>
 
-							<div class="col-sm-2 col-sm-offset-1">
-								<a class="tile" href="http://www.textreme.com/" target="_blank">
+				<div class="row">
+
+					<div class="col-sm-2 col-sm-offset-1">
+						<a class="tile" href="http://www.textreme.com/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/textreme.png"/>
 								</a>
-							</div>
+					</div>
 
-							<div class="col-sm-2">
-								<a class="tile" href="https://www.engsoc.uwaterloo.ca/" target="_blank">
+					<div class="col-sm-2">
+						<a class="tile" href="https://www.engsoc.uwaterloo.ca/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/uw_eng_soc.png"/>
 								</a>
-							</div>
+					</div>
 
-							<div class="col-sm-2">
-								<a class="tile" href="https://uwaterloo.ca/civil-environmental-engineering/" target="_blank">
+					<div class="col-sm-2">
+						<a class="tile" href="https://uwaterloo.ca/civil-environmental-engineering/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/uw_science.png"/>
 								</a>
-							</div>
+					</div>
 
-							<div class="col-sm-2">
-								<a class="tile" href="http://newmediaservices.uwaterloo.ca/mediadoc.html" target="_blank">
+					<div class="col-sm-2">
+						<a class="tile" href="http://newmediaservices.uwaterloo.ca/mediadoc.html" target="_blank">
 									<img class="img-rounded" src="img/sponsor/uw_media_doc.png"/>
 								</a>
-							</div>
+					</div>
 
-						<div class="col-sm-2">
-								<a class="tile" href="http://www.kitchenerhonda.com/en/" target="_blank">
+					<div class="col-sm-2">
+						<a class="tile" href="http://www.kitchenerhonda.com/en/" target="_blank">
 									<img class="img-rounded" src="img/sponsor/kitchener_honda.png"/>
 								</a>
-							</div>
-
 					</div>
+
+				</div>
+
+				<div class="row">
+
+					<div class="col-sm-2 col-sm-offset-3">
+						<a class="tile" href="https://delta-elevator.com/" target="_blank">
+									<img class="img-rounded" src="img/sponsor/delta_elevator.png"/>
+								</a>
+					</div>
+
+					<div class="col-sm-2">
+						<a class="tile" href="http://odg.com/" target="_blank">
+									<img class="img-rounded" src="img/sponsor/ontario_drive_and_gear.png"/>
+								</a>
+					</div>
+
+					<div class="col-sm-2">
+						<a class="tile" href="http://www.teslamachining.com/" target="_blank">
+									<img class="img-rounded" src="img/sponsor/tesla_machining_and_gundrilling.png"/>
+								</a>
+					</div>
+
+				</div>
+
+				<div class="row text-center">
+					<hr>
+					<h1 class="col-md-12">
+						Backers
+					</h1>
 
 					<div class="row">
 
-							<div class="col-sm-2 col-sm-offset-3">
-								<a class="tile" href="https://delta-elevator.com/" target="_blank">
-									<img class="img-rounded" src="img/sponsor/delta_elevator.png"/>
-								</a>
-							</div>
-
-							<div class="col-sm-2">
-								<a class="tile" href="http://odg.com/" target="_blank">
-									<img class="img-rounded" src="img/sponsor/ontario_drive_and_gear.png"/>
-								</a>
-							</div>
-
-							<div class="col-sm-2">
-								<a class="tile" href="http://www.teslamachining.com/" target="_blank">
-									<img class="img-rounded" src="img/sponsor/tesla_machining_and_gundrilling.png"/>
-								</a>
-							</div>	            
-
-					</div>  
-
-					<div class="row text-center">
-						<hr>
-						<h1 class="col-md-12">
-							Backers
-						</h1>
-
-						<div class="row">
-
-								<div class="col-sm-offset-1 col-sm-2">
-									<a class="tile" href="http://www.picocanada.com/en/index.php" target="_blank">
+						<div class="col-sm-offset-1 col-sm-2">
+							<a class="tile" href="http://www.picocanada.com/en/index.php" target="_blank">
 										<img class="img-rounded" src="img/sponsor/pico_canada.png"/>
 									</a>
-								</div>
-								
-								<div class="col-sm-2">
-									<a class="tile" href="http://www.cheapflights.com/" target="_blank">
+						</div>
+
+						<div class="col-sm-2">
+							<a class="tile" href="http://www.cheapflights.com/" target="_blank">
 										<img class="img-rounded" src="img/sponsor/cheapflights.png"/>
 									</a >
 								</div>
@@ -440,108 +406,121 @@
 									<a class="tile" href="https://dreamqii.com/" target="_blank">
 										<img class="img-rounded" src="img/sponsor/dream_qii.png"/>
 									</a>
-								</div>
-								
-								<div class="col-sm-2">
-									<a class="tile" href="http://www.rapidgear.com/" target="_blank">
+						</div>
+
+						<div class="col-sm-2">
+							<a class="tile" href="http://www.rapidgear.com/" target="_blank">
 										<img class="img-rounded" src="img/sponsor/rapid_gear.png"/>
 									</a>
-								</div>
-								 
-								<div class="col-sm-2">
-									<a class="tile" href="http://velocity.uwaterloo.ca/" target="_blank">
+						</div>
+
+						<div class="col-sm-2">
+							<a class="tile" href="http://velocity.uwaterloo.ca/" target="_blank">
 										<img class="img-rounded" src="img/sponsor/velocity.png"/>
 									</a>
-								</div>
-
 						</div>
+
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 
 
-		<footer class="footer">
+	<footer class="footer">
 
-			<div class="footer-left">
-				<div class="icon">
-					<a href="index.html">
+		<div class="footer-left">
+			<div class="icon">
+				<a href="index.html">
 						<img id="logo" src="img/logo_long.png"/>
 					</a>
-				</div>
-				<p class="footer-links">
-					<a href="index.html">Home</a>
-					·
-					<a href="team.html">Team</a>
-					·
-					<a href="cars.html">Cars</a>
-					·
-					<a href="sponsors.html">Sponsors</a>
-					·
-					<a href="media.html">Media</a>
-				</p>
-
-				<p class="footer-company-name">Midnight Sun &copy; 2017</p>
 			</div>
+			<p class="footer-links">
+				<a href="index.html">Home</a> ·
+				<a href="team.html">Team</a> ·
+				<a href="cars.html">Cars</a> ·
+				<a href="sponsors.html">Sponsors</a> ·
+				<a href="media.html">Media</a>
+			</p>
 
-			<div class="footer-center">
+			<p class="footer-company-name">Midnight Sun &copy; 2017</p>
+		</div>
 
-				<div>
-					<i class="fa fa-map-marker"></i>
-					<p>
-						<span>
+		<div class="footer-center">
+
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p>
+					<span>
 							Engineering 5, Room 2001.
 							University of Waterloo.
-						</span>
-						200 University Ave West
-						Waterloo, ON, N2L 3G1
-					</p>
-				</div>
-
-				<div>
-					<i class="fa fa-phone"></i>
-					<p>519-888-4567 x32978 </p>
-				</div>
-
-				<div>
-					<i class="fa fa-envelope"></i>
-					<p><a href="mailto:solar@uwmidsun.com">solar@uwmidsun.com</a></p>
-				</div>
-
-			</div>
-
-			<div class="footer-right">
-
-				<p class="footer-company-about">
-					<span>Midnight Sun</span>
-					The University of Waterloo's Competitive Solar Race Car Team
+						</span> 200 University Ave West Waterloo, ON, N2L 3G1
 				</p>
+			</div>
 
-				<div class="footer-icons">
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>519-888-4567 x32978 </p>
+			</div>
 
-					<a href="https://www.facebook.com/uwmidsun" target="_blank"><i class="fa fa-facebook"></i></a>
-					<a href="https://twitter.com/uwmidsun" target="_blank"><i class="fa fa-twitter"></i></a>
-					<a href="https://www.instagram.com/uwmidsun" target="_blank"><i class="fa fa-instagram"></i></a>
-					<a href="https://www.flickr.com/photos/uwmidsun/" target="_blank"><i class="fa fa-flickr"></i></a>
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="mailto:solar@uwmidsun.com">solar@uwmidsun.com</a></p>
+			</div>
 
-				</div>
+		</div>
+
+		<div class="footer-right">
+
+			<p class="footer-company-about">
+				<span>Midnight Sun</span> The University of Waterloo's Competitive Solar Race Car Team
+			</p>
+
+			<div class="footer-icons">
+
+				<a href="https://www.facebook.com/uwmidsun" target="_blank"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/uwmidsun" target="_blank"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.instagram.com/uwmidsun" target="_blank"><i class="fa fa-instagram"></i></a>
+				<a href="https://www.flickr.com/photos/uwmidsun/" target="_blank"><i class="fa fa-flickr"></i></a>
 
 			</div>
 
-		</footer>
+		</div>
+
+	</footer>
+
+	<nav class="navbar navbar-default fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"
+				 aria-expanded="false">
+					  <span class="sr-only">Toggle navigation</span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					  <span class="icon-bar"></span>
+					</button>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="team.html">TEAM</a></li>
+					<li><a href="cars.html">CARS</a></li>
+					<li><a href="sponsors.html">SPONSORS</a></li>
+					<li><a href="media.html">MEDIA</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<a class="" href="index.html">
+		<div class="brand-img-wrapper">
+			<img class="navbar-left brand-img" src="img/logo_long.png" />
+			<img class="mobile-brand" src="img/logo_long.png" />
+		</div>
+	</a>
 
 
+	<script src="js/loader.js"></script>
+	<script src="js/header.js"></script>
+	<script src="js/sponsors.js"></script>
+</body>
 
-		<script src="https://code.jquery.com/jquery.js"/>
-		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"/>
-		<script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.jquery.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/3.4.0/js/swiper.jquery.min.js"></script>
-
-		<script src="js/loader.js"></script>
-		<script src="js/header.js"></script>
-		<script src="js/sponsors.js"></script>
-	</body>
 </html>

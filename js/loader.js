@@ -1,3 +1,4 @@
+$('body').addClass('loaded');
 $(document).ready(function() {
 	setTimeout(function() {
 		$('body').addClass('loaded');

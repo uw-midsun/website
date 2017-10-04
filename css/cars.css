@@ -60,7 +60,7 @@ p {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  z-index: 100;
+  z-index: 99;
 }
 
 .center {
@@ -252,7 +252,7 @@ p {
 }
 .title_text {
   color: #333;
-  margin-top: 10vh;
+  margin-top: 150px;
   line-height: 1;
   -webkit-transition: all 800ms linear;
   -o-transition: all 800ms linear;
@@ -585,4 +585,11 @@ p {
   width: 100%;
   z-index: 100;
 }
-
+nav.navbar{
+  z-index: 100;
+}
+img{
+  position: relative;
+  max-width: inherit;
+  z-index: 102;
+}
