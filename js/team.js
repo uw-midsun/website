@@ -44,52 +44,40 @@ function _goBack() {
 
 var teamMembers = [
 	{
-		name: 'Aaron Lam',
-		program: '3rd Year Computer Engineering',
+		name: 'Tak Alguire',
+		program: 'Electrical Engineering',
 		title: 'Project Manager',
+		imgSrc: 'Tak_Alguire'
+	},
+	{
+		name: 'Aaron Lam',
+		program: 'Computer Engineering',
+		title: 'Administrative Manager',
 		imgSrc: 'Aaron_Lam'
 	},
 	{
 		name: 'Minghao Ji',
-		program: '3rd Year Electrical Engineering',
+		program: 'Electrical Engineering',
 		title: 'Technical Manager',
 		imgSrc: 'Minghao_Ji'
 	},
 	{
-		name: 'Tak Alguire',
-		program: '2nd Year Electrical Engineering',
-		title: 'Operations Manager',
-		imgSrc: 'Tak_Alguire'
-	},
-	{
 		name: 'Devon Copeland',
-		program: '3rd Year Mechatronics Engineering',
+		program: 'Mechatronics Engineering',
 		title: 'Mechanical Manager',
 		imgSrc: 'Devon_Copeland'
 	},
 	{
 		name: 'Matthew Suski',
-		program: '2nd Year Mechanical Engineering',
+		program: 'Mechanical Engineering',
 		title: 'Mechanical Manager',
 		imgSrc: 'Matthew_Suski'
 	},
 	{
 		name: 'Ritu Shah',
-		program: '3rd Year Systems Design Engineering',
+		program: 'Systems Design Engineering',
 		title: 'Chassis Lead',
 		imgSrc: 'Ritu_Shah'
-	},
-	{
-		name: 'Angela Chao',
-		program: '3rd Year Systems Design Engineering',
-		title: 'Chassis Lead',
-		imgSrc: 'Angela_Chao'
-	},
-	{
-		name: 'Kuldeep Panjwani',
-		program: '2nd Year Mechanical Engineering',
-		title: 'Body & Aerodynamics Lead',
-		imgSrc: 'Kuldeep_Panjwani'
 	},
 	{
 		name: 'Lauren Hankins',
@@ -99,75 +87,75 @@ var teamMembers = [
 	},
 	{
 		name: 'Robin Pearce',
-		program: '1st Year Mechatronics Engineering',
+		program: 'Mechatronics Engineering',
 		title: 'Driver Controls Lead',
 		imgSrc: 'Robin_Pearce'
 	},
 	{
 		name: 'Titus Chow',
-		program: '3rd Year Computer Science',
+		program: 'Computer Science',
 		title: 'Electrical Manager',
 		imgSrc: 'Titus_Chow'
 	},
 	{
 		name: 'Calder Kitagawa',
-		program: '3rd Year Nanotechnology Engineering',
+		program: 'Nanotechnology Engineering',
 		title: 'Electrical Manager',
 		imgSrc: 'Calder_Kitagawa'
 	},
 	{
-		name: 'Lucas Francisco Fryzek',
-		program: '3rd Year Computer Science',
-		title: 'Firmware Lead',
-		imgSrc: 'Lucas_Francisco'
-	},
-	{
 		name: 'Karl Ding',
-		program: '3rd Year Computer Science',
+		program: 'Computer Science',
 		title: 'Firmware Lead',
 		imgSrc: 'Karl_Ding'
 	},
 	{
 		name: 'Kevin Chen',
-		program: '3rd Year Mechatronics Engineering',
+		program: 'Mechatronics Engineering',
 		title: 'Hardware Design Lead',
 		imgSrc: 'Kevin_Chen'
 	},
 	{
 		name: 'Taiping Li',
-		program: '2nd Year Electrical Engineering',
+		program: 'Electrical Engineering',
 		title: 'Hardware Design Lead',
 		imgSrc: 'Taiping_Li'
 	},
 	{
 		name: 'Clarke Vandenhoven',
-		program: '1st Year Chemical Engineering',
+		program: 'Chemical Engineering',
 		title: 'Sponsorship Lead',
 		imgSrc: 'Clarke_Vandenhoven'
 	},
 	{
-		name: 'Iris Chang',
-		program: '2nd Year Systems Design Engineering',
-		title: 'Business Manager',
-		imgSrc: 'Iris_Chang'
-	},
-	{
 		name: 'Toni Li',
-		program: '2nd Year Management Engineering',
+		program: 'Management Engineering',
 		title: 'Marketing Lead',
 		imgSrc: 'Toni_Li'
 	},
 	{
 		name: 'Tony Wang',
-		program: '2nd Year Computer Engineering',
+		program: 'Computer Engineering',
 		title: 'Marketing Lead',
 		imgSrc: 'Tony_Wang'
+	},	
+	{
+		name: 'Alyssha Schneider',
+		program: 'Management Engineering',
+		title: 'Business Lead',
+		imgSrc: 'Alyssha_Schneider'
 	},
 	{
-		name: 'Keith Wong',
-		program: '3rd Year Electrical Engineering',
-		title: 'Safety Officer',
-		imgSrc: 'Keith_Wong'
+		name: 'Adam Marchang',
+		program: 'Mechanical Engineering',
+		title: 'Mechanical Manager',
+		imgSrc: 'Adam_Marchang'
+	},
+	{
+		name: 'Adrian Au',
+		program: 'Mechanical Engineering',
+		title: 'Aerobody Lead',
+		imgSrc: 'Adrian_Au'
 	}
 ]
 

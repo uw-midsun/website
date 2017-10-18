@@ -160,7 +160,11 @@ p {
         margin: 0; }
       .team-members .team-member .member-description .name, .team-members .team-member .member-description .program, .team-members .team-member .member-description .title {
         text-align: center;
-        margin: 2px;}
+        margin: 0px;
+        }
+      .team-members .team-member .member-description .program{
+        padding-top: 7px;
+        }
       .team-members .team-member .member-description .program, .team-members .team-member .member-description .title {
         transition: all 0.3s;
         height: 0px; }
