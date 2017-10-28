@@ -50,16 +50,16 @@ var teamMembers = [
 		imgSrc: 'Tak_Alguire'
 	},
 	{
-		name: 'Aaron Lam',
-		program: 'Computer Engineering',
-		title: 'Administrative Manager',
-		imgSrc: 'Aaron_Lam'
-	},
-	{
 		name: 'Minghao Ji',
 		program: 'Electrical Engineering',
 		title: 'Technical Manager',
 		imgSrc: 'Minghao_Ji'
+	},
+	{
+		name: 'Aaron Lam',
+		program: 'Computer Engineering',
+		title: 'Administrative Manager',
+		imgSrc: 'Aaron_Lam'
 	},
 	{
 		name: 'Devon Copeland',
@@ -68,10 +68,22 @@ var teamMembers = [
 		imgSrc: 'Devon_Copeland'
 	},
 	{
+		name: 'Adam Marchand',
+		program: 'Mechanical Engineering',
+		title: 'Mechanical Manager',
+		imgSrc: 'Adam_Marchand'
+	},
+	{
 		name: 'Matthew Suski',
 		program: 'Mechanical Engineering',
 		title: 'Mechanical Manager',
 		imgSrc: 'Matthew_Suski'
+	},
+	{
+		name: 'Adrian Au',
+		program: 'Mechanical Engineering',
+		title: 'Aerobody Lead',
+		imgSrc: 'Adrian_Au'
 	},
 	{
 		name: 'Ritu Shah',
@@ -120,6 +132,12 @@ var teamMembers = [
 		program: 'Electrical Engineering',
 		title: 'Hardware Design Lead',
 		imgSrc: 'Taiping_Li'
+	},	
+	{
+		name: 'Alyssha Schneider',
+		program: 'Management Engineering',
+		title: 'Business Lead',
+		imgSrc: 'Alyssha_Schneider'
 	},
 	{
 		name: 'Clarke Vandenhoven',
@@ -138,24 +156,6 @@ var teamMembers = [
 		program: 'Computer Engineering',
 		title: 'Marketing Lead',
 		imgSrc: 'Tony_Wang'
-	},	
-	{
-		name: 'Alyssha Schneider',
-		program: 'Management Engineering',
-		title: 'Business Lead',
-		imgSrc: 'Alyssha_Schneider'
-	},
-	{
-		name: 'Adam Marchang',
-		program: 'Mechanical Engineering',
-		title: 'Mechanical Manager',
-		imgSrc: 'Adam_Marchang'
-	},
-	{
-		name: 'Adrian Au',
-		program: 'Mechanical Engineering',
-		title: 'Aerobody Lead',
-		imgSrc: 'Adrian_Au'
 	}
 ]
 
