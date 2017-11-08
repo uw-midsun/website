@@ -21,6 +21,10 @@ h1 {
 .row{
     margin: auto;
 }
+div[class*=col-sm-] > .row {
+    display: flex;
+    align-items: center;
+}
 .sponsor-us-title h1 {
     margin-top: 0px;
 }
@@ -132,15 +136,14 @@ a{
 }
 
 .tile > img {
-    max-height: 100px;
-    max-width: 175px;
+    max-height: 200px;
+    max-width: 200px;
     transition: all 0.1s ease-in-out;
 }
-.col-sm-2 img{
-    height: 100%;
-    width: 100%;
+div[class*=col-sm-] img{
+    width: auto;
     max-width: 100%;
-    max-height: 100%;
+    max-height: 200px;
 }
 .swiper-container {
     width: 80%;
@@ -171,4 +174,10 @@ a{
 }
 h1.col-md-12{
     padding-bottom: 50px;
+}
+@media (min-width: 767px) {
+    .tile > img {
+        max-height: 200px;
+        max-width: 350px;
+    }
 }
