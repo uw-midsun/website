@@ -10,6 +10,24 @@ $(document).ready(function() {
 		paginationClickable: true,
 		spaceBetween: 300
 	});
+
+	function isScrolledIntoView(elem)
+	{
+		var docViewTop = $(window).scrollTop();
+		var docViewBottom = docViewTop + $(window).height();
+	
+		var elemTop = $(elem).offset().top;
+		var elemBottom = elemTop + $(elem).height();
+		return  (elemTop+ 100) <= docViewBottom;
+	}
+	$(window).scroll(function(){
+		if(isScrolledIntoView('.row.description')){
+			$('body').removeClass('loaded');
+		}
+		else{
+			$('body').addClass('loaded');
+		}
+	});
 })
 
 $(".arrow.animated.bounce, .previous_text.animated.bounce").click(function() {
